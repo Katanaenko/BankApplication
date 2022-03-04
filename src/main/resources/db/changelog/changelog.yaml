@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - include:
+      file: ddl/create_table_client_types.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: ddl/create_table_clients.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: ddl/create_table_accounts.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: dml/fill_tables.yaml
+      relativeToChangelogFile: true
+
